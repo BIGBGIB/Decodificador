@@ -8,6 +8,7 @@
   <li> <strong> Descriptografia: </strong> O texto criptografado pode ser colado novamente no campo de entrada. Ao clicar no botão "Descriptografar", o texto original é restaurado e exibido no campo de saída. </li>
 </ul>
 <p> Neste projeto aprendi muito sobre HTML, CSS E JAVASCRIPT.</p>
+<p align="center"> Link para acessar o projeto: https://bigbgib.github.io/Decodificador/ </p>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Gabi-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
