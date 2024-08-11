@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+    --cor-primaria: #FFEBB2;
+    --cor-secundaria: #8644A2;
+    --cor-terciaria: #ffffff;
+    --cor-quartenaria: #000000;
+
+    --fonte-primaria:  "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%; /* Garante que o body e o html ocupem 100% da altura da janela */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Mantém o rodapé no final da página */
+}
+
+
+.logo__g {
+    margin: 40px 70px;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 15px;
+    bottom: 808px;
+    left: 240px;
+    right: 520px;
+    height: 100%; /* Garante que o main ocupe toda a altura possível */
+    flex: 1; /* Permite que o main cresça para ocupar espaço disponível */
+    
+}
+
+.apresentacao__entrada {
+    width: 593px;
+    display: flex;	/* coloca os quadrados lado a lado */
+    flex-direction: column;
+    gap: 16px;
+}
+
+.entrada {
+    font-size: 32px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 10px;
+    line-height: 48px;
+    border-radius: 5px;
+    border: none;
+    text-transform: lowercase;
+
+}
+
+::placeholder { color: var(--cor-secundaria);}
+    .entrada:focus {
+      outline: none;
+    }
+
+.apresentacao__alerta {
+    display: flex;
+    gap: 8px;
+}
+
+.texto__alerta {
+    font-size: 12px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-quartenaria);
+}
+
+.apresentacao__botao {
+    justify-content: space-between;
+    display: flex;
+    gap: 24px; /* Espaçamento entre os items */
+    margin-top: 18px;
+
+}
+
+.botao__criptografar {
+    color:var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    width: 328px; /* largura da borda*/
+    height: 67px;
+    top: 885px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    padding: 24px;
+    border: 1px solid var(--cor-secundaria); /* O primeiro valor é referente a expessura da borda, o segundo é o tipo da borda*/
+    cursor: pointer;
+}
+
+.botao__criptografar:hover {
+    background-color:#E59BE9;
+}
+
+.botao__descriptografar {
+    color:var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    width: 328px; /* largura da borda*/
+    height: 67px;
+    top: 885px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    padding: 24px;
+    border: 1px solid var(--cor-secundaria); /* O primeiro valor é referente a expessura da borda, o segundo é o tipo da borda*/
+    cursor: pointer;
+}
+
+.botao__descriptografar:hover {
+    background-color: #D8DFE8;
+}
+
+.apresentacao__saida {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    right: 580px;
+    bottom: 60px;
+    gap: 16px;
+    background-color: var(--cor-terciaria);
+    border-radius: 32px;
+    width: 400px;
+    height: 700px;
+}
+
+.imagem__menina {
+    width: 336px;
+    height: 304px;
+}
+
+.apresentacao__saida__titulo, .apresentacao__saida__paragrafo, .imagem__menina{
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+.apresentacao__saida__titulo {
+    font-size: 24px;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-style: normal;
+    color: var(--cor-quartenaria);
+    width: 336px;
+    height: 58px;
+}
+
+.apresentacao__saida__paragrafo {
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-quartenaria);
+    width: 336px;
+    height: 58px;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 600px;
+    bottom: 60px;
+}
+
+.saida {
+    background-color: var(--cor-terciaria);
+    border: none;
+    border-radius: 32px;
+    color: var(--cor-quartenaria);
+    font-size: 24px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-quartenaria);
+    padding: 10px;
+    line-height: 48px;
+    border: none;
+    text-transform: lowercase;
+    
+}
+
+.saida:focus {
+    outline: none;
+}
+    
+.botao__copiar {
+    color:var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    width: 328px; /* largura da borda*/
+    height: 67px;
+    top: 885px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+    padding: 24px;
+    border: 1px solid var(--cor-secundaria); /* O primeiro valor é referente a expessura da borda, o segundo é o tipo da borda*/
+    cursor: pointer;  
+    position: absolute;
+    top: 90%;
+}
+
+.botao__copiar:hover {
+    background-color: #D8DFE8;
+}
+
+.rodape {
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    /* margin é da borda pra fora */
+    padding: 24px;  /* é da borda para dentro*/
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-style: normal;
+}

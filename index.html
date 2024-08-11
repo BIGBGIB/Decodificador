@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
+</head>
+<body>
+    <header>
+        <img  class="logo__g" src="assets/G.png" alt="Log G">
+    </header>
+   
+    <main class="apresentacao">
+        <section class="apresentacao__entrada"> 
+            <textarea class="entrada" cols="50" rows="10" placeholder="Digite seu texto"></textarea>
+            
+            <div class="apresentacao__alerta">
+                <img src="assets/exclamacao.png" alt="Ponto de Exclamção">
+                <p class="texto__alerta">Apenas letras minúsculas e sem acento.</p>
+            </div>
+                
+            <div class="apresentacao__botao">
+                <button onclick="criptografar() && mostrarCopiarTexto()" class="botao__criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="botao__descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        
+        <section class="secao__apresentacao__saida">
+            <div class="apresentacao__saida">
+                <img class="imagem__menina" src="assets/foto menina.png" alt="Foto menina">
+                <h1 class="apresentacao__saida__titulo"><strong>Nenhuma mensagem encontrada</strong></h1>
+                <p class="apresentacao__saida__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="resultado">
+                <textarea class="saida" cols="25" rows="15" style="display:none;"></textarea> 
+                <button class="botao__copiar" onclick="copiarTexto()" style="display:none;">Copiar</button> 
+            </div> 
+        </section>    
+    </main>
+    
+    <footer class="rodape">
+        <p>Desenvolvido por Gabrielle</p>
+    </footer>
+   
+    <script src="app.js"></script>
+
+</body>
+</html> 
