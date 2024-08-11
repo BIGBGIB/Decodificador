@@ -1,5 +1,5 @@
 <h1 align="center"> Decodificador de texto </h1>
-<h2 align="center"> Challenge proposto por Oracle next Education em parceria com Alura </h2>
+<h2 align="center"> Challenge proposto por Oracle Next Education em parceria com Alura </h2>
 <p align="center"> O projeto "Decodificador de Texto" é uma aplicação onde o usuário pode criptografar e descriptografar mensagens de forma simples e interativa. O processo funciona da seguinte maneira: </p>
 <ul>
   <li> <strong> Entrada de Texto: </strong> O usuário insere um texto no campo de entrada. </li>
