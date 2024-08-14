@@ -56,6 +56,8 @@ body {
     display: flex;	/* coloca os quadrados lado a lado */
     flex-direction: column;
     gap: 16px;
+    position: relative;
+    right: 5%;
 }
 
 .entrada {
