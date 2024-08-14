@@ -146,7 +146,7 @@ body {
     text-align: center;
     flex-direction: column;
     position: relative;
-    right: 580px;
+    right: 130%;
     bottom: 60px;
     gap: 16px;
     background-color: var(--cor-terciaria);
