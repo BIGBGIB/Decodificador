@@ -48,20 +48,19 @@ body {
     right: 520px;
     height: 100%; /* Garante que o main ocupe toda a altura possível */
     flex: 1; /* Permite que o main cresça para ocupar espaço disponível */
+    gap: 80px;
     
 }
 
 .apresentacao__entrada {
-    width: 593px;
+    width: 30%;
     display: flex;	/* coloca os quadrados lado a lado */
     flex-direction: column;
     gap: 16px;
-    position: relative;
-    right: 5%;
 }
 
 .entrada {
-    font-size: 32px;
+    font-size: 2rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
@@ -86,7 +85,7 @@ body {
 }
 
 .texto__alerta {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
@@ -109,7 +108,7 @@ body {
     top: 885px;
     text-align: center;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
@@ -130,7 +129,7 @@ body {
     top: 885px;
     text-align: center;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
@@ -143,13 +142,15 @@ body {
     background-color: #D8DFE8;
 }
 
+.secao__apresentacao__saida {
+    width: 50%;
+    height: 100%;
+}
+
 .apresentacao__saida {
     display: flex;
     text-align: center;
     flex-direction: column;
-    position: relative;
-    right: 130%;
-    bottom: 60px;
     gap: 16px;
     background-color: var(--cor-terciaria);
     border-radius: 32px;
@@ -169,7 +170,7 @@ body {
 }
 
 .apresentacao__saida__titulo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     font-weight: 700;
     font-style: normal;
@@ -179,7 +180,7 @@ body {
 }
 
 .apresentacao__saida__paragrafo {
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
@@ -202,7 +203,7 @@ body {
     border: none;
     border-radius: 32px;
     color: var(--cor-quartenaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
@@ -226,7 +227,7 @@ body {
     top: 885px;
     text-align: center;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
@@ -247,7 +248,7 @@ body {
     /* margin é da borda pra fora */
     padding: 24px;  /* é da borda para dentro*/
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
