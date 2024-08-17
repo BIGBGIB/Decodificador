@@ -37,7 +37,6 @@ function criptografar () {
     mostrarCopiarTexto();
     mostrarTextareaSaida();
     ocultarImagem();
-    
 }
 
 async function copiarTexto() {
@@ -68,4 +67,7 @@ function descriptografar () {
     const descriptografia = descriptografando(entrada.value);
     saida.value = descriptografia;
     entrada.value = "";
+    mostrarCopiarTexto();
+    mostrarTextareaSaida();
+    ocultarImagem();
 }
