@@ -14,15 +14,6 @@
     padding: 0;
 }
 
-html, body {
-    height: 100%; /* Garante que o body e o html ocupem 100% da altura da janela */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
 body {
     background-color: var(--cor-primaria);
     box-sizing: border-box;
@@ -36,20 +27,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
-    top: 15px;
-    bottom: 808px;
-    left: 240px;
-    right: 520px;
-    height: 100%; /* Garante que o main ocupe toda a altura possível */
-    flex: 1; /* Permite que o main cresça para ocupar espaço disponível */
-    
+    padding: 3% 15% ;
+    gap: 80px;
 }
 
 .apresentacao__entrada {
-    width: 593px;
-    display: flex;	/* coloca os quadrados lado a lado */
-    flex-direction: column;
+    display: flex;	/* coloca os quadrados lado a lado */    
+    flex-direction: column; /* coloca os quadrados na vertical */
     gap: 16px;
 }
 
@@ -67,7 +51,7 @@ body {
     text-transform: lowercase; /* Garante que a letras sempre estejam em minúsculo */
 }
 
-::placeholder {color: var(--cor-secundaria);} 
+::placeholder { color: var(--cor-secundaria);}
     .entrada:focus {
       outline: none; /*remove o contorno padrão quando o campo está em foco. */
     }
@@ -135,13 +119,16 @@ body {
     background-color: #D8DFE8;
 }
 
+.secao__apresentacao__saida {
+    display: flex;
+    align-items: center;
+}
+
 .apresentacao__saida {
     display: flex;
     text-align: center;
     flex-direction: column;
     position: relative;
-    right: 580px;
-    bottom: 60px;
     gap: 16px;
     background-color: var(--cor-terciaria);
     border-radius: 32px;
@@ -185,8 +172,6 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    right: 600px;
-    bottom: 60px;
 }
 
 .saida {
@@ -255,7 +240,7 @@ body {
     .apresentacao__botao {
         flex-direction: column;
     }
-
+    
     .logo__g {
         margin: 20px 20px;
         width: 10%;
