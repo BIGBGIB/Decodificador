@@ -230,7 +230,7 @@ body {
     .apresentacao {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 60px;
     }
 
     .apresentacao__entrada {
