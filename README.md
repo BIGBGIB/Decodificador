@@ -7,7 +7,7 @@
   <li> <strong> Copiar Texto: </strong> O usuário pode clicar no botão "Copiar", que salva a versão criptografada do texto na área de transferência. </li>
   <li> <strong> Descriptografia: </strong> O texto criptografado pode ser colado novamente no campo de entrada. Ao clicar no botão "Descriptografar", o texto original é restaurado e exibido no campo de saída. </li>
 </ul>
-<p> Neste projeto aprendi muito sobre HTML, CSS E JAVASCRIPT.</p>
+<p> Neste projeto os códigos em HTML, CSS E JAVASCRIPT foram escritos do início ao fim por mim.</p>
 <p align="center"> Link para acessar o projeto: https://bigbgib.github.io/Decodificador/ </p>
 
 <div style="display: inline_block"><br>
